@@ -165,7 +165,7 @@ h2{
     font-family: 'Taviraj', serif;
     font-size: 20px;
     line-height: 20px;
-    color: white;
+    color: #999;
     text-align: center;
     vertical-align: middle;
     outline: none;
@@ -177,7 +177,7 @@ h2{
     linear-gradient(315deg, #EAEEEF 25%, transparent 25%),
     linear-gradient(45deg, #EAEEEF 25%, transparent 25%);
     background-size: 50px 50px;
-    background-color: rgba(205, 219, 222, 1);
+    background-color: rgba(205, 219, 222, 0);
 }
 
 .button--unopened {
