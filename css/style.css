@@ -160,7 +160,6 @@ h2{
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background: green;
     border: 2px solid #fff;
     overflow: hidden;
     font-family: 'Taviraj', serif;
@@ -172,6 +171,13 @@ h2{
     outline: none;
     margin: 0;
     padding: 30px 0 0 1px;
+    background:
+    linear-gradient(135deg, #EAEEEF 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, #EAEEEF 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #EAEEEF 25%, transparent 25%),
+    linear-gradient(45deg, #EAEEEF 25%, transparent 25%);
+    background-size: 50px 50px;
+    background-color: rgba(205, 219, 222, 1);
 }
 
 .button--unopened {
