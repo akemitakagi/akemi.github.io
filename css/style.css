@@ -72,22 +72,12 @@ h2{
     font-size: 30px;
     padding-top: 12px;
     font-family: 'Taviraj', serif;
-    -webkit-transform: translate(-150%,0);
-    -moz-transform: translate(-150%,0);
-    -ms-transform: translate(-150%,0);
-    -o-transform: translate(-150%,0);
-    transform: translate(-150%,0);
 }
 
 /* :after */
 
 .button:after {
     content: attr(data-active);
-    -webkit-transform: translate(150%,0);
-    -moz-transform: translate(150%,0);
-    -ms-transform: translate(150%,0);
-    -o-transform: translate(150%,0);
-    transform: translate(150%,0);
 }
 
 /* Span on :hover and :active */
@@ -110,11 +100,6 @@ h2{
 .button:hover:before,
 .button:active:after {
     opacity: 1;
-    -webkit-transform: translate(0,0);
-    -moz-transform: translate(0,0);
-    -ms-transform: translate(0,0);
-    -o-transform: translate(0,0);
-    transform: translate(0,0);
     -webkit-transition-delay: .4s;
     -moz-transition-delay: .4s;
     -o-transition-delay: .4s;
@@ -126,11 +111,6 @@ h2{
 */
 
 .button:active:before {
-    -webkit-transform: translate(-150%,0);
-    -moz-transform: translate(-150%,0);
-    -ms-transform: translate(-150%,0);
-    -o-transform: translate(-150%,0);
-    transform: translate(-150%,0);
     -webkit-transition-delay: 0s;
     -moz-transition-delay: 0s;
     -o-transition-delay: 0s;
