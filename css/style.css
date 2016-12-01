@@ -215,10 +215,10 @@ h2{
     margin: 0;
     padding: 0;
     background:
-    linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
-    linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
-    linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
-    linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+    linear-gradient(135deg, green 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, green 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, green 25%, transparent 25%),
+    linear-gradient(45deg, green 25%, transparent 25%);
     background-size: 50px 50px;
-    background-color: rgba(240, 185, 77, 0.7);
+    background-color: #F60000;
     }
