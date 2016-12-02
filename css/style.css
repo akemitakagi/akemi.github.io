@@ -150,7 +150,7 @@ h2{
     vertical-align: middle;
     outline: none;
     margin: 0;
-    padding: 30px 0 0 1px;
+    padding: 30px 0 0 0;
     background:
     linear-gradient(135deg, #EAEEEF 25%, transparent 25%) -50px 0,
     linear-gradient(225deg, #EAEEEF 25%, transparent 25%) -50px 0,
